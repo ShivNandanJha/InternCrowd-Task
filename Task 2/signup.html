@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset    = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name       = "viewport" content        = "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Intern Crowd- Task 2</title>
+</head>
+<body>
+
+     <!-- Navbar section -->
+     <nav class = "navbar">
+        <div class = "logoImg">
+        <img src   = "img/interncrowd.png" alt = "Logo" />
+          </div>
+          <a     href  = "#home" class = "logo">InternCrowd</a>
+          <ul    class = "nav-links">
+          <li><a href  = "#home">Home</a></li>
+          <li><a href  = "#service">Services</a></li>
+          <li><a href  = "#contact">Contact</a></li>
+          <li><a href  = "signup.html">Get Started</a></li>
+          <li><a href  = "login.html">Login</a></li>
+          </ul>
+          <div    class  = "searchbox">
+          <form   action = "#" method         = "get">
+          <input  type   = "text" placeholder = "Search..." />
+          <button type   = "submit">Search</button>
+            </form>
+          </div>
+          <div class = "social-icons">
+          <a   href  = "#"><img src = "img/facebook.png" alt = "Facebook" /></a>
+          <a   href  = "#"><img src = "img/twitter.png" alt  = "Twitter" /></a>
+          <a   href  = "#"><img src = "img/telegram.png" alt = "Instagram" /></a>
+          </div>
+        </nav>
+<!-- Sign Up Page -->
+        <div  id="Signup" class="signup-container">
+            <h1>User Registration Page</h1>
+            <form >
+              <label  for  = "name">Name:</label>
+              <input  type = "text" id     = "name" name             = "name" required>
+              <label  for  = "email">Email:</label>
+              <input  type = "email" id    = "email" name            = "email" required>
+              <label  for  = "mobile">Mobile:</label>
+              <input  type = "tel" id      = "mobile" name           = "mobile" pattern = "[0-9]{10}" required>
+              <label  for  = "username">Username:</label>
+              <input  type = "text" id     = "username" name         = "username" required>
+              <label  for  = "password">Password:</label>
+              <input  type = "password" id = "password" name         = "password" required>
+              <label  for  = "confirm-password">Confirm Password:</label>
+              <input  type = "password" id = "confirm-password" name = "confirm-password" required>
+              <button  class="submitBtn" type = "submit">Submit</button>
+              <p>Already have an account?</p>
+              <button class="submitBtn" type = "submit"><a href="login.html">⇒ Login</a></button>
+            </form>
+         </div>
+
+</body>
+</html>
